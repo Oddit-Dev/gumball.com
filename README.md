@@ -28,3 +28,8 @@ In a separate terminal window, run the following command to watch and compile Ta
 ```sh
 npx tailwind -i tw-input.css -o ./assets/_custom.css --watch --minify
 ```
+
+## Tailwind CSS
+
+We use `tw-` prefix for all custom Tailwind CSS classes.
+The `tw-input.css` file is the source of truth for Tailwind CSS. All changes should be made in this file and then will be compiled to `_custom.css`.
