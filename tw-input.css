@@ -11,3 +11,11 @@
 }
 
 @tailwind utilities;
+
+/* Hide Snize search autocomplete results.
+This is an app that the client uses to power
+their search but we will get rid of since
+we are using Shopify's predictive search. */
+.snize-ac-results {
+  @apply !tw-hidden;
+}
